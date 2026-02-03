@@ -10,10 +10,13 @@ cd local-ai-meetings
 make setup          # Check dependencies
 ```
 
+### Recording
+
+I use [OBS](https://formulae.brew.sh/cask/obs) (`brew install --cask obs`) for simple video recordings with the output directory set to the project root. After a meeting, the recording lands right where `make` picks it up.
+
 ### Process a recording
 
 ```bash
-# Drop a video file in the project root, then:
 make process P=Alice_Bob
 ```
 
@@ -61,7 +64,7 @@ See [`.agents/README.md`](.agents/README.md) for setup instructions with Cursor,
 | Dependency | Install |
 |-----------|---------|
 | [ffmpeg](https://ffmpeg.org/) | `brew install ffmpeg` |
-| [openai-whisper](https://github.com/openai/whisper) | `pip install openai-whisper` |
+| [openai-whisper](https://github.com/openai/whisper) | `brew install openai-whisper` |
 
 ## License
 

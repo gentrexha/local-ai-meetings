@@ -45,7 +45,7 @@ list:
 setup:
 	@echo "Checking dependencies..."
 	@printf "  ffmpeg:  " && (command -v ffmpeg >/dev/null 2>&1 && echo "OK ($(shell ffmpeg -version 2>&1 | head -1 | cut -d' ' -f3))" || echo "MISSING — install with: brew install ffmpeg")
-	@printf "  whisper: " && (command -v whisper >/dev/null 2>&1 && echo "OK" || echo "MISSING — install with: pip install openai-whisper")
+	@printf "  whisper: " && (command -v whisper >/dev/null 2>&1 && echo "OK" || echo "MISSING — install with: brew install openai-whisper")
 	@echo ""
 	@echo "All set!" 2>/dev/null || true
 
