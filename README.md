@@ -1,6 +1,6 @@
 # local-ai-meetings
 
-Local-first meeting transcription and AI summarization. No cloud services, no API keys — everything runs on your machine.
+Local-first meeting transcription and AI summarization.
 
 ## Quick Start
 
