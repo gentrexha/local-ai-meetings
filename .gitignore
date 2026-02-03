@@ -1,0 +1,19 @@
+# Meeting output (kept local, never committed)
+meetings/
+!meetings/.gitkeep
+
+# Media files
+*.mov
+*.mp4
+*.webm
+*.mkv
+*.avi
+*.mp3
+*.wav
+*.m4a
+
+# OS
+.DS_Store
+
+# Editor-specific (use .agents/ instead)
+.cursor/
